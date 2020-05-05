@@ -1,0 +1,179 @@
+
+*{font-family: Tahoma;box-sizing: border-box}
+
+.container{
+    width: 1070px;
+    margin: auto;
+    overflow: hidden
+}
+
+.clearfix{clear: both}
+/*-------Start Header and navbar*/
+header{
+    background-color: #20194a;
+    margin: 0;
+    overflow: hidden
+}
+
+header h2{
+    float: left;
+    color: #fcbf1e;
+    font-family: script;
+    font-weight: bold;
+    font-size: 70px;
+    margin: -6px 0 0 0;
+}
+
+header h2:hover{
+    color: #fdea2e;
+    cursor: pointer;
+    transition: .8s ease
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+    overflow: hidden;
+    padding: 30px
+}
+
+header nav ul li{
+    float: left;
+    color: #fcbf1e;
+    margin-right: 31px;
+    font-size: 18px;
+}
+
+header nav ul li:hover{
+    color: #fdea2e;
+    cursor: pointer;
+    transition: .8s ease
+}
+/*--------End header and Nav bar*/
+
+
+
+/*--------Start section 2-------*/
+.section-1{
+    background-color: #7f78d269;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.section-1 #text{
+    width: 50%;
+    float: left
+}
+
+.section-1 #text>h2{
+    margin-top: 0
+}
+
+
+
+.section-1 #image{
+    float: right;
+    max-width: 50%;
+    max-height: 400px
+}
+
+.section-1 #image img{
+    width: 550px;
+    height: 300px;
+    box-shadow: 3px 3px 3px ;
+}
+
+.section-1 #image img:hover{cursor: zoom-in}
+/*------End Section 1-----------*/
+
+
+
+/*-----Start section 2---------*/
+.section-2{
+    background-color: #eaeaea;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.section-2 #box{
+    float: left;
+    width:33.3333%;
+}
+
+.section-2 #box img{
+    max-width: 300px;
+}
+
+.section-2 #box img:hover{
+    cursor: pointer
+}
+/*-----End section 2---------*/
+
+/*-----Start Footer--------*/
+footer{
+    background-color: #35234b;
+    color: #f2f2f2;
+    padding-top:50px;
+    overflow: hidden
+}
+
+footer ul{
+    list-style: none;
+    margin: 0 70px 0 0;
+    padding: 0;
+    float: right;
+    max-width: 30%
+}
+
+footer li{
+    padding-bottom: 10px
+}
+
+footer li:hover{
+    color: #509aaf;
+    cursor: pointer
+}
+
+footer #about{
+    float: right;
+    max-width: 40%
+}
+
+footer #about-2{
+    float: right;
+    max-width: 30%;
+}
+
+footer .copyrights p{
+    text-align: center;
+    color: #FFF;
+    margin-top: 60px;
+}
+/*-------End Footer--------*/
+
+
+
+/*----START FRAME WORK------*/
+/*paragraphs styling*/
+p{
+    line-height: 1.6;
+    color: #444;
+    padding-right: 40px
+}
+/*buttons styling*/
+#buttonila{
+    padding: 5px 25px;
+    background-color: #e94822a6;
+    border: 0;
+    border-radius: 7px
+}
+ #buttonila:hover{
+    background-color: #e94822;
+    color: #FF9;
+    transition: 0.6s ease;
+    cursor: pointer
+}
+/*------END FRAME WORK-----*/
